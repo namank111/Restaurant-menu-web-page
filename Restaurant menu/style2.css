@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the heading */
+h1 {
+    background-color: bisque;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    border: solid 5px;
+    font-style: italic;
+}
+/* Styling for the container */
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #ec7373, #e0e0e0);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+    
+}
+/* Styling for the image table */
+table img {
+    
+    width: 320px;
+    height: 320px;
+    justify-content: space-between;
+    padding: 20px;
+}
+/* Styling for captions below images */
+table p {
+    margin: 20px;
+    margin-top: 20px;
+    border: solid;
+    padding: 5px;
+    height: 25px;
+    width: 300px;
+    font-size: 22px;
+    text-align: center;
+    background-color: antiquewhite;
+    cursor: pointer;
+    
+}
+/* Hover effect for images */
+table img:hover {
+    transform: scale(1.1);
+}
+/* Hover effect for captions below images */
+table p:hover {
+    background-color: #ec7373;
+    transform: translateY(10px) scale(1.2);
+}
